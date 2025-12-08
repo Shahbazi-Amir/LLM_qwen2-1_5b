@@ -1,0 +1,65 @@
+############################
+# macOS crap
+############################
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+
+############################
+# Python
+############################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv
+env/
+venv/
+
+############################
+# VSCode
+############################
+.vscode/
+.history/
+
+############################
+# LLM Models
+############################
+models/
+*.gguf
+*.bin
+*.pt
+*.safetensors
+
+############################
+# llama.cpp (do NOT track)
+############################
+llama.cpp/
+llama.cpp/*
+
+############################
+# Build folders
+############################
+build/
+*/build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.out
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+############################
+# Logs
+############################
+*.log
+logs/
+debug.log
